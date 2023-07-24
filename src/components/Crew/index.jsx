@@ -11,11 +11,11 @@ const Crew = () => {
 
   return (
     <>
-      <h2>02 Meet your crew</h2>
+      <h5>02 Meet your crew</h5>
 
       <section>
-        <h3>{crew[idx].role}</h3>
-        <h4>{crew[idx].name}</h4>
+        <h4>{crew[idx].role}</h4>
+        <h3>{crew[idx].name}</h3>
         <p>{crew[idx].bio}</p>
       </section>
 

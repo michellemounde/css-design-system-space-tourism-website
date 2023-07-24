@@ -11,7 +11,7 @@ const Destination = () => {
 
   return (
     <>
-      <h2>01 Pick your destination</h2>
+      <h5>01 Pick your destination</h5>
 
       <ul>
         <li><button onClick={() => setIdx(0)}>Moon</button></li>
@@ -21,12 +21,12 @@ const Destination = () => {
       </ul>
 
       <section>
-        <h3>{destinations[idx].name}</h3>
+        <h2>{destinations[idx].name}</h2>
         <p>{destinations[idx].description}</p>
-        <h4>Avg. distance</h4>
-        <p>{destinations[idx].distance}</p>
-        <h4>Est. travel time</h4>
-        <p>{destinations[idx].travel}</p>
+        <p>Avg. distance</p>
+        <h5>{destinations[idx].distance}</h5>
+        <p>Est. travel time</p>
+        <h5>{destinations[idx].travel}</h5>
       </section>
     </>
   )

@@ -11,7 +11,7 @@ const Technology = () => {
 
   return (
     <>
-      <h2>03 Space launch 101</h2>
+      <h5>03 Space launch 101</h5>
 
       <ul>
         <li><button onClick={() => setIdx(0)}>1</button></li>
@@ -19,7 +19,7 @@ const Technology = () => {
         <li><button onClick={() => setIdx(2)}>3</button></li>
       </ul>
 
-      <h4>The terminology...</h4>
+      <p>The terminology...</p>
 
       <section>
         <h3>{technologies[idx].name}</h3>
